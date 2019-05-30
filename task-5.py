@@ -1,11 +1,11 @@
 #  DEFINE DATA STRUCTURES TO REPRESENT SEXPRS. (10L) 
-class sexpr:
-   def emptystring(self):
+class sexpr: pass
+class emptystring(sexpr):
       empty_tuple = () 
       print (empty_tuple)
-   def strings(self):
+class strings(sexpr):
       strng = "sexpr"
       print(strng)
-   def pair(self):
+class pair(sexpr):
       tup1 = ('string1', 'string2')
       print(tup1)
