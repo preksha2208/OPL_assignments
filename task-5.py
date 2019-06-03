@@ -1,11 +1,14 @@
-#  DEFINE DATA STRUCTURES TO REPRESENT SEXPRS. (10L) 
+#  DEFINE DATA STRUCTURES TO REPRESENT SEXPRS. (13L) 
 class sexpr: pass
-class emptystring(sexpr):
-      empty_tuple = () 
-      print (empty_tuple)
+class empty(sexpr):
+    def __init__(self,empty_tuple):
+      self.empty_tuple = empty_tuple
+class cons(sexpr) :
+    def __init__(self,const):
+      self.const = const
 class strings(sexpr):
-      strng = "sexpr"
-      print(strng)
+    def __init__(self,strng1):
+      self.strng1 = strng1
 class pair(sexpr):
-      tup1 = ('string1', 'string2')
-      print(tup1)
+    def __init__(self,tup1):
+      self.tup1 = tup1 
