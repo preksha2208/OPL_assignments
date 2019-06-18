@@ -1,4 +1,4 @@
-#  Implement the CC0 machine interpreter for J1. (48L)
+#  IMPLEMENT THE CC0 MACHINE INTERPRETER FOR J1. (35L)
 class interpreter :
     def __init__ (self,temp_list):
         self.temp_list = temp_list
@@ -35,7 +35,3 @@ print(interpreter(["TRUE","E","HOLE","TRUE","FALSE"]).interp())
 print("\n")
 print(interpreter(["FALSE","E","HOLE","TRUE","FALSE"]))
 print(interpreter(["FALSE","E","HOLE","TRUE","FALSE"]).interp())
-
-# print(plug(["<","HOLE",5,"5 is greater","2 is greater"]).interp())
-# print(plug([">",5,"HOLE",3,4]))
-# print(plug([">",5,"HOLE",3,4]).interp())
