@@ -1,4 +1,4 @@
-// DEFINE DATA STRUCTURE TO REPRESENT J1 PROGRAMS. (20L) 
+// DEFINE DATA STRUCTURE TO REPRESENT J2 PROGRAMS IN LOW LEVEL. (33L) 
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -31,5 +31,4 @@ struct D {
    struct X objx;        
    struct F objf;
    struct D objd;
-   
 }  
