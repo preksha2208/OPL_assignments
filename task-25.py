@@ -55,7 +55,7 @@ class X :
         self.varnam = varnam
     def __str__(self):
         if len(self.var) == 1:
-            return(str(self.lists[0]))
+            return(str(self.varnam[0]))
 class F :
     def __init__(self,func):
         self.func = func
