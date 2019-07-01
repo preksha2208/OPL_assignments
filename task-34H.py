@@ -9,5 +9,5 @@ class prim:
     def __init__(self,oper):
         self.oper = oper
 class X :
-    def __init__ (self,varnam)
+    def __init__ (self,varnam):
         self.varnam = varnam
