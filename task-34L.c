@@ -1,4 +1,4 @@
-// DEFINE DATA STRUCTURE TO REPRESENT J1 PROGRAMS. (20L) 
+// DEFINE DATA STRUCTURE TO REPRESENT J3 PROGRAMS. (28L) 
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
